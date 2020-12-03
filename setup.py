@@ -7,7 +7,7 @@ setup(name='kesmarag-gaussian-hmm-tf',
       author_email='kesmarag@gmail.com',
       url='https://github.com/kesmarag/gaussian-hmm-tf',
       packages=['kesmarag.ghmm'],
-      package_dir={'kesmarag.ghmm': './'},
+      # package_dir={'kesmarag.ghmm': './'},
       install_requires=['tensorflow>=1.2.0',
                         'numpy>=1.12.1',
                         'scikit-learn>=0.18.1'], )
