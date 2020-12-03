@@ -4,7 +4,7 @@ import tempfile
 import time
 import numpy as np
 import tensorflow as tf
-from kesmarag.ghmm import DataSet
+from dataset import DataSet
 from sklearn.cluster import KMeans
 from sklearn.utils import check_random_state
 from tensorflow.contrib.distributions import MultivariateNormalFullCovariance
