@@ -1,4 +1,4 @@
-from setuptools import setup
+from setuptools import setup, find_packages
 
 setup(name='kesmarag-gaussian-hmm-tf',
       version='0.1.1',
@@ -6,7 +6,7 @@ setup(name='kesmarag-gaussian-hmm-tf',
       author='Costas Smaragdakis',
       author_email='kesmarag@gmail.com',
       url=  'https://github.com/kesmarag/gaussian-hmm-tf',
-      packages=['gaussian-hmm-tf'],
+      packages=find_packages(), # ['gaussian-hmm-tf'],
       # package_dir={'kesmarag.ghmm': './'},
       install_requires=['tensorflow>=1.2.0',
                         'numpy>=1.12.1',
